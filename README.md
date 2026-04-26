@@ -8,9 +8,9 @@ Inside this file you will see 3 main sections that govern 1 - matplotlib to plot
 UI for this project was developed using QTDesigner.
   <br><br/>
   
-<img width="798" height="631" alt="Screenshot 2025-12-23 152803" src="https://github.com/user-attachments/assets/611fba12-6dfb-403c-b980-ac8381e002fd" />
+<img width="600" height="450" alt="Screenshot 2025-12-23 152803" src="https://github.com/user-attachments/assets/611fba12-6dfb-403c-b980-ac8381e002fd" />
   <br><br/>
-<img width="876" height="634" alt="Screenshot 2025-12-23 152723" src="https://github.com/user-attachments/assets/d9f89002-839f-4b6b-aa84-e7918aceb802" />
+<img width="600" height="450" alt="Screenshot 2025-12-23 152723" src="https://github.com/user-attachments/assets/d9f89002-839f-4b6b-aa84-e7918aceb802" />
   <br><br/>
 Second application is named main.py and is running on RaspberryPi Pico. This code allows it to receive commands and output data. To physical pins I have connected a variable resistor that is supposed to act as a sensor (e.g. strain gauge). It is running this code:
   <br><br/>
