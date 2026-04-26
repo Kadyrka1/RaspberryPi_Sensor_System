@@ -1,6 +1,6 @@
 # RaspberryPi_Sensor_System
 Sensor Communication with PC using python 
-  
+  <br><br/>
 <img width="4000" height="3000" alt="1000118289" src="https://github.com/user-attachments/assets/20a27d95-a0f5-4966-8989-91de94b1692a" />
 
   
