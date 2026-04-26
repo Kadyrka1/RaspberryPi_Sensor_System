@@ -85,11 +85,9 @@ class MainWindow(QtWidgets.QMainWindow):
             return
 
         try:
-            # Example acquisition (replace with real commands)
             self.device.write("MEAS:RAW?")
             raw_data = self.device.read()
 
-            # Example parsing (adjust to your instrument format)
             voltages = np.array([float(v) for v in raw_data.split(',')])
             times = np.linspace(0, 1, len(voltages))
 
@@ -99,7 +97,6 @@ class MainWindow(QtWidgets.QMainWindow):
             QtWidgets.QMessageBox.critical(self, "Acquisition Error", str(e))
 
     def stop_acquisition(self):
-        # Placeholder for continuous acquisition stop
         QtWidgets.QMessageBox.information(self, "Stop", "Acquisition stopped")
 
 
