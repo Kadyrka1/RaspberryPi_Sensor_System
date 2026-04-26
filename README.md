@@ -1,7 +1,7 @@
 # RaspberryPi_Sensor_System
 Sensor Communication with PC using python 
   <br><br/>
-<img width="2000" height="1500" alt="1000118289" src="https://github.com/user-attachments/assets/20a27d95-a0f5-4966-8989-91de94b1692a" />
+<img width="800" height="600" alt="1000118289" src="https://github.com/user-attachments/assets/20a27d95-a0f5-4966-8989-91de94b1692a" />
   <br><br/>
 I have created two applications. First application is called M9.py
 Inside this file you will see 3 main sections that govern 1 - matplotlib to plot data on the graph, 2 - main window that governs GUI and uses pyvisa to connect to the device using usb communication, and 3 - buttons that allow to connect and disconnect devices, and acquire and plot data.
